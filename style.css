@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.container {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.background-image {
+  width: 200.5vw;
+  opacity: 0.1;
+  position: absolute;
+}
+
+.chakra-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  padding: 30%;
+  padding-top: 30%;
+  box-sizing: border-box;
+}
+
+.chakra-container .chakra {
+  width: 50%;
+  margin: 10px 0;
+  /* Add more styling if needed */
+}
+
+.chakra-container img {
+  width: 100%;
+  /* Add more styling if needed */
+}
