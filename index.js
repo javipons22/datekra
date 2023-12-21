@@ -1,3 +1,5 @@
+process.env.TZ = 'America/Argentina/Cordoba';
+
 let baseInfo = {
   creationDate: {
     date: '03/12/2023',
