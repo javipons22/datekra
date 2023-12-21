@@ -8,9 +8,8 @@ let baseInfo = {
 function getTodaysDate() {
   let dateObj = new Date();
   let month = dateObj.getMonth() + 1;
-  let day = dateObj.getDay();
+  let day = dateObj.getDate();
   let year = dateObj.getFullYear();
-
   return day + "/" + month + "/" + year;
 }
 
