@@ -1,5 +1,3 @@
-process.env.TZ = 'America/Argentina/Cordoba';
-
 let baseInfo = {
   creationDate: {
     date: '03/12/2023',
@@ -9,9 +7,9 @@ let baseInfo = {
 
 function getTodaysDate() {
   let dateObj = new Date();
-  let month = dateObj.getUTCMonth() + 1;
-  let day = dateObj.getUTCDate();
-  let year = dateObj.getUTCFullYear();
+  let month = dateObj.getMonth() + 1;
+  let day = dateObj.getDay();
+  let year = dateObj.getFullYear();
 
   return day + "/" + month + "/" + year;
 }
